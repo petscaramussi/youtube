@@ -14,7 +14,8 @@ class _BibliotecaState extends State<Biblioteca> {
           "Biblioteca",
           style: TextStyle(
             fontSize: 25
-          )),
+          )
+        ),
       ),
     );
   }
