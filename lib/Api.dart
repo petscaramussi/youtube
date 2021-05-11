@@ -25,11 +25,13 @@ class Api {
     
     Map<String, dynamic> dadosJson = json.decode( response.body );
 
-    List<Video> video = dadosJson["items"];
+    //List<Video> video = dadosJson["items"];
 
-    
+    for( var video in dadosJson["items"]){
+      print("Resultado: " + video.toString());
+    }
 
-    print("resultado: " + dadosJson["items"][2]["snippet"]["title"].toString() );
+    //print("resultado: " + dadosJson["items"][2]["snippet"]["title"].toString() );
 
   }else{
     
