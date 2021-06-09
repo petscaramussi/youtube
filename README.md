@@ -25,3 +25,30 @@ flutter run
  
  
 ## resources
+
+### Using API
+
+Pubspec.yaml:
+
+```
+dependencies:
+  flutter:
+    sdk: flutter
+
+  http: ^0.12.0+2
+  flutter_youtube: ^1.1.6
+```
+
+File:
+
+```
+import 'package:http/http.dart' as http;
+import 'dart:convert';
+
+
+// use your api key here
+const CHAVE_YOUTUBE_API = "";
+
+// api url base
+const URL_BASE = "https://youtube.googleapis.com/youtube/v3/";
+```
