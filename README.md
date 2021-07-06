@@ -11,14 +11,14 @@ For help getting started with Flutter, view our online documentation, which offe
 First of all clone the repository with
 
 gh repo clone petscaramussi/lista_tarefas
-Run app
+- Run app
 
 after configure your emulator
 
 flutter emulator
 start debugging and run
 
-flutter run
+- flutter run
 
 ## youtube
  youtube clone, with back-end using Youtube API
